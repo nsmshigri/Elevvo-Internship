@@ -9,7 +9,7 @@ This repo contains a collection of projects and tasks completed during the inter
 2. [Task 2 - Contact Form](./Task2%20-%20Contact%20Form/README.md)  
 3. [Task 3 - Taskflow Site](./Task3%20-%20Taskflow%20site/README.md)  
 4. [Task 4 - Tech Landing Page](./Task4%20-%20Tech%20Landing%20Page/README.md)
-- [Task 7 - Real Time Weather Dashboard](./Task7%20-%20Real%20Time%20Weather%20Dashboard/README.md)
+5. [Task 7 - Real Time Weather Dashboard](./Task7%20-%20Real%20Time%20Weather%20Dashboard/README.md)
 <!-- Add more tasks here as needed -->
 
 ## Getting Started
