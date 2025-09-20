@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TaskFlow — Organize your day</title>
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="antialiased leading-relaxed">
+
+  <header class="sticky top-0 z-40 bg-white/60 backdrop-blur-sm border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 text-slate-900 font-semibold text-lg">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" class="text-yellow-500">
+          <circle cx="12" cy="12" r="10" fill="#FDE68A"/>
+          <path d="M7 12h10" stroke="#123" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M7 8h10" stroke="#123" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        TaskFlow
+      </a>
+      <nav class="hidden md:flex gap-6 items-center text-slate-700">
+        <a href="#features" class="hover:text-slate-900">Features</a>
+        <a href="#reviews" class="hover:text-slate-900">Reviews</a>
+        <a href="#pricing" class="hover:text-slate-900">Pricing</a>
+        <a href="#contact" class="px-4 py-2 bg-yellow-400 rounded-md shadow-sm font-medium hover:brightness-95">Get Started</a>
+      </nav>
+      <div class="md:hidden">
+        <a href="#get-started" class="px-3 py-2 bg-yellow-400 rounded-md text-slate-900 font-medium">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero-wave overflow-hidden">
+    <div class="max-w-6xl mx-auto px-6 py-20 md:py-28">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-extrabold leading-tight reveal" data-reveal>
+            TaskFlow — stay focused, finish more
+          </h1>
+          <p class="mt-4 text-slate-700 text-lg max-w-xl reveal" data-reveal>
+            A simple task manager built for busy people. Plan your day, track priorities, and collaborate with your team — all in one clean interface.
+          </p>
+          <div class="mt-6 flex gap-3 reveal" data-reveal>
+            <a href="#pricing" class="px-5 py-3 bg-slate-900 text-white rounded-md shadow hover:scale-105 transition">Get Started — It's free</a>
+            <a href="#features" class="px-4 py-3 border border-slate-200 rounded-md text-slate-800 hover:bg-slate-50 transition">Learn More</a>
+          </div>
+        </div>
+        <div class="reveal" data-reveal>
+          <div class="rounded-2xl p-6 bg-white shadow-md border border-slate-100">
+            <img src="taskflow logo.webp" alt="Task app preview" class="rounded-md" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold text-center mb-12 reveal" data-reveal>Features</h2>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div class="p-6 bg-white rounded-xl shadow reveal" data-reveal>
+        <h3 class="text-xl font-semibold">Organize</h3>
+        <p class="text-slate-600 mt-2">Create tasks, set deadlines, and never lose track.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow reveal" data-reveal>
+        <h3 class="text-xl font-semibold">Stay Productive</h3>
+        <p class="text-slate-600 mt-2">Prioritize important work and minimize distractions.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow reveal" data-reveal>
+        <h3 class="text-xl font-semibold">Collaborate</h3>
+        <p class="text-slate-600 mt-2">Work together with your team in real time.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="bg-slate-50 py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12 reveal" data-reveal>What our users say</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <blockquote class="p-6 bg-white rounded-xl shadow reveal" data-reveal>
+          <p>"TaskFlow keeps my workday organized. I get more done with less stress."</p>
+          <footer class="mt-4 text-sm text-slate-600">— Kazim_J.</footer>
+        </blockquote>
+        <blockquote class="p-6 bg-white rounded-xl shadow reveal" data-reveal>
+          <p>"Perfect for team collaboration. We manage all our projects here."</p>
+          <footer class="mt-4 text-sm text-slate-600">— Ali H.</footer>
+        </blockquote>
+        <blockquote class="p-6 bg-white rounded-xl shadow reveal" data-reveal>
+          <p>"So clean and easy to use. It’s now my daily habit."</p>
+          <footer class="mt-4 text-sm text-slate-600">— Alex P.</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="pricing" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold text-center mb-12 reveal" data-reveal>Pricing</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white rounded-xl shadow text-center reveal" data-reveal>
+        <h3 class="text-xl font-semibold">Free</h3>
+        <p class="mt-2 text-slate-600">$0 / month</p>
+        <ul class="mt-4 text-sm text-slate-600 space-y-2">
+          <li>✔ Basic features</li>
+          <li>✔ 1 project</li>
+        </ul>
+        <a href="#" class="mt-6 inline-block px-4 py-2 border border-slate-200 rounded-md hover:bg-slate-50">Choose</a>
+      </div>
+      <div class="p-6 bg-yellow-100 rounded-xl shadow text-center reveal" data-reveal>
+        <h3 class="text-xl font-semibold">Pro</h3>
+        <p class="mt-2 text-slate-600">$9 / month</p>
+        <ul class="mt-4 text-sm text-slate-600 space-y-2">
+          <li>✔ Unlimited projects</li>
+          <li>✔ Team collaboration</li>
+        </ul>
+        <a href="#" class="mt-6 inline-block px-4 py-2 bg-slate-900 text-white rounded-md">Choose</a>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow text-center reveal" data-reveal>
+        <h3 class="text-xl font-semibold">Team</h3>
+        <p class="mt-2 text-slate-600">$19 / month</p>
+        <ul class="mt-4 text-sm text-slate-600 space-y-2">
+          <li>✔ Everything in Pro</li>
+          <li>✔ Priority support</li>
+        </ul>
+        <a href="#" class="mt-6 inline-block px-4 py-2 border border-slate-200 rounded-md hover:bg-slate-50">Choose</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer id="contact" class="bg-slate-900 text-slate-200 py-10">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p>&copy; 2025 TaskFlow. All rights reserved.</p>
+      <div class="flex gap-4 mt-4 md:mt-0">
+        <a href="#" class="hover:text-white">Twitter</a>
+        <a href="#" class="hover:text-white">LinkedIn</a>
+        <a href="#" class="hover:text-white">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
