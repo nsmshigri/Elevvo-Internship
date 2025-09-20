@@ -1,4 +1,4 @@
-const apiKey = "409995aeeace71de38f3e09c3f909179"; // your working key
+const apiKey = "add your openweathermap api key"; // your working key
 
 // Auto-load user location city
 window.onload = () => {
