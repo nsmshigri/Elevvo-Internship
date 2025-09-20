@@ -5,7 +5,7 @@ This repo contains a collection of projects and tasks completed during the inter
 
 ## Table of Contents
 
-- [Task 1 - Project Name or Short Description](./Task1-Project-Name/README.md)
+- [Task 1 - Project Name or Short Description](./Task1- Collapsible Sidebar/README.md)
 - [Task 2 - Project Name or Short Description](./Task2-Project-Name/README.md)
 - [Task 3 - Project Name or Short Description](./Task3-Project-Name/README.md)
 - [Task 4 - Project Name or Short Description](./Task4-Project-Name/README.md)
