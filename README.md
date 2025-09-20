@@ -5,12 +5,10 @@ This repo contains a collection of projects and tasks completed during the inter
 
 ## Table of Contents
 
-- [Task 1 - Project Name or Short Description](./Task1- Collapsible Sidebar/README.md)
-- [Task 2 - Project Name or Short Description](./Task2-Project-Name/README.md)
-- [Task 3 - Project Name or Short Description](./Task3-Project-Name/README.md)
-- [Task 4 - Project Name or Short Description](./Task4-Project-Name/README.md)
-- [Task 5 - Project Name or Short Description](./Task5-Project-Name/README.md)
-- [Task 6 - Project Name or Short Description](./Task6-Project-Name/README.md)
+1. [Task 1 - Collapsible Sidebar](./Task1-Collapsible%20Sidebar/README.md)  
+2. [Task 2 - Contact Form](./Task2%20-%20Contact%20Form/README.md)  
+3. [Task 3 - Taskflow Site](./Task3%20-%20Taskflow%20site/README.md)  
+4. [Task 4 - Tech Landing Page](./Task4%20-%20Tech%20Landing%20Page/README.md)
 - [Task 7 - Real Time Weather Dashboard](./Task7%20-%20Real%20Time%20Weather%20Dashboard/README.md)
 <!-- Add more tasks here as needed -->
 
@@ -26,6 +24,14 @@ This repo contains a collection of projects and tasks completed during the inter
    ```
 
 3. **Read the task-specific README file for setup and usage instructions.**
+
+
+## 🛠️ Tech Stack  
+
+- HTML5  
+- CSS3 (Flexbox, Grid, Tailwind for some tasks)  
+- JavaScript (ES6)  
+- APIs (OpenWeather, etc.)
 
 ## About
 
